@@ -1,3 +1,5 @@
+'use sctrict';
+
 class CodeBreaker {
   constructor(newSecret) {
     this.secret = newSecret;

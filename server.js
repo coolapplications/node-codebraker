@@ -1,3 +1,5 @@
 const app = require('./app');
 
-app.listen(3000);
+const server = app.listen(3000, () => {
+  console.log(`Onfire in http://localhost:${server.address().port}`);
+});
